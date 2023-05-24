@@ -1,0 +1,139 @@
+body {
+     background-color: hsl(257, 40%, 49%);
+     background-image: url('bg-desktop.svg');
+}
+
+.nav{
+     padding: 10px 0 0 50px;
+}
+
+h1{
+     font-family: 'Poppins', sans-serif;
+}
+
+
+.main{
+     padding:35px 0 0 0;
+     display: flex;
+}
+
+.text{
+     width: auto;
+     padding: 50px 30px 0 30px;
+     color: white;
+     font-size: 1.2rem;
+}
+
+p{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1rem;
+     text-align: left;
+     width: 90%;
+}
+
+.pic{
+     width: auto;
+     padding-left: 50px;
+}
+
+
+.butt{
+     padding: 20px 10px 0;
+}
+
+.myButton {
+	background-color:#ffff;
+	border-radius:28px;
+	border:1px  #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(257, 40%, 49%);
+	font-family: 'Poppins', sans-serif;
+	font-size:17px;
+	padding:13px 56px;
+	text-decoration:none;
+}
+
+.illu{
+     width: 100%;
+     height: 10%;
+     padding-left: 50px;
+}
+
+.myButton:hover {
+     color: #ffff;
+	background-color:hsl(300, 69%, 71%);
+} 
+
+.socials {
+     width: auto;
+     height: auto;
+     padding-right: 60px;
+     display: flex;
+     justify-content: end;
+}
+ .icon{
+     color: #ffff;
+     padding: 0 8px;
+ }
+ .icon:hover{
+     cursor: pointer;
+     color:hsl(300, 69%, 71%) ;
+ }
+
+ @media screen and (max-width: 768px){
+     body {
+          background-color: hsl(257, 40%, 49%);
+          background-image: url('bg-mobile.svg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 50%;
+
+     }
+
+     .illu{
+          width: 70%;
+          height: 20%;
+     }
+
+     article{
+          height: 50%;
+          width: 50%;
+     }
+
+
+     .main{
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+     }
+
+     p{
+          width: 95%;
+          font-size: 0.9rem;
+          text-align: center;
+     }
+
+     h1{
+          margin: 5px auto 2px;
+          text-align: center;
+          font-size: 1.2rem;
+          width:55%;
+          
+     }
+
+     .text{
+          width: auto;
+          padding: 0 30px 0 30px;
+     }
+
+     .butt{
+          text-align: center;
+     }
+     .socials{
+          padding: 0;
+          margin: 50px 0 0 0;
+          justify-content: center;
+     }
+
+} 
